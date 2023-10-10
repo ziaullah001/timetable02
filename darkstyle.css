@@ -1,0 +1,96 @@
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    background-color: rgb(243, 237, 237);
+}
+
+.btn {
+    text-align: end;
+}
+
+.btn a, .logo a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo, .btn {
+    width: 15%;
+}
+
+.logo a img {
+  width: 100%;
+}
+
+.btn a {
+    display: inline-block;
+    font-size: 13px;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    padding: 8px 7px;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: rgb(66, 60, 60);
+    width: 100%;
+
+}
+
+.container h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+table, th, td {
+    border: 2px solid;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 11px;
+    max-width: 90%;
+    margin: auto;
+    color: #ffffff;
+}
+
+table th, td {
+    height: 20px;
+    line-height: 20px;
+    padding: 3px 3px;
+}
+
+.vertical {
+   writing-mode:vertical-rl;
+   text-orientation:sideways-right;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(52, 50, 50);
+    padding: 15px 0;
+}
+footer p {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
